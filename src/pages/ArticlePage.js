@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Article from '../components/Article/Article.js'
-import { fetchArticleByID } from '../api/ArticlesAPI';
+import fetchArticleByID from '../api/ArticlesAPI';
 
 class ArticlePage extends Component {
   state = {

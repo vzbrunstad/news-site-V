@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ArticleList from '../components/ArticleList/ArticleList.js'
-import { fetchArticlesBySection } from '../api/ArticlesAPI.js'
+import fetchArticlesBySection from '../api/ArticlesAPI.js'
 
 class SectionPage extends Component {
   state = {

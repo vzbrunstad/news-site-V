@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ArticleList from '../components/ArticleList/ArticleList.js'
-import { fetchArticles, searchArticles } from '../api/ArticlesAPI';
+import fetchArticles from '../api/ArticlesAPI';
+import searchArticles from '../api/ArticlesAPI';
 import { InputGroup, Input } from 'reactstrap';
 
 class HomePage extends Component {
